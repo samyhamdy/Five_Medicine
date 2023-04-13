@@ -25,7 +25,6 @@ dependencies:
   shared_preferences: ^2.1.0
   sizer: ^2.0.15
   get_it: ^7.2.0
-  # tflite: ^1.1.2
 
 
 dev_dependencies:
@@ -45,10 +44,7 @@ flutter:
     - assets/images/
     - assets/icons/
 
-  # fonts:
-  #   - family: NeoSansArabicRegular
-  #     fonts:
-  #       - asset: assets/fonts/NeoSansArabicRegular.ttf
+
   fonts:
     - family: NeoSansArabicRegular
       fonts:
