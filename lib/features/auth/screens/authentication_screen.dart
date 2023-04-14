@@ -214,7 +214,7 @@ class _AuthenticationState extends State<Authentication> {
                     onTap: () async {
                       if (_formKey.currentState!.validate()) {
                         LocatorUtils().pref().isAuthenticated =
-                            true; //سجل خلاص يعني دخل بياناته
+                            true;
                         const ChooseDiseaseScreen().PushAndReplace(
                             context: context,
                             type: PageTransitionType.bottomToTop);
