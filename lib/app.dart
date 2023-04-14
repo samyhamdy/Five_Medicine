@@ -24,16 +24,3 @@ class _MyAppState extends State<MyApp> {
       },
     );
   }
-
-  // getData(context) {
-  //   BlocProvider.of<AuthCubit>(context).getData().then((value) {
-  //     if (value == null) {
-  //       const Onboard().PushAndReplace(
-  //           context: context, type: PageTransitionType.leftToRight);
-  //     } else {
-  //       const DrawerScreen().PushAndReplace(
-  //           context: context, type: PageTransitionType.leftToRight);
-  //     }
-  //   });
-  // }
-}
